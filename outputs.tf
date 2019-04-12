@@ -12,3 +12,4 @@ output "public_dns" {
    description = "List of the DNS name assigned to the instances"
    value = ["${aws_instance.aws_i1.public_dns}"]
 }
+
