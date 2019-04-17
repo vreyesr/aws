@@ -1,4 +1,14 @@
 #!/usr/bin/python
+'''
+    NAME
+        aws_ec2_cli.py - For EC2 utility at AWS
+
+    AUTHOR
+        Valentin Reyes
+'''
+
+__version__ = '20190417.1'
+
 import boto3
 import json
 
