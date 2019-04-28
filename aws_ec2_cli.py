@@ -11,6 +11,12 @@ __version__ = '20190417.1'
 
 import boto3
 import json
+import os
+
+client = boto3.client('s3',
+    aws_access_key_id=os.environ['AWS_ACCESS_KEY_ID'],
+    aws_secret_access_key=os.environ['AWS_SECRET_ACCESS_KEY'],
+)
 
 
 def aws_list_instances():
