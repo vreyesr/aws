@@ -36,5 +36,5 @@ print type( get_ec2_client().describe_instances())
 """
 
 print type(get_rds_client())
-
+print get_ec2_client().describe_instances()['Reservations'][0]['Instances'][0]['PublicDnsName']
 print get_rds_client().describe_db_instances()
