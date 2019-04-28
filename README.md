@@ -1,5 +1,4 @@
-# TERRAFORM AWS
+# AWS Project (AWScli / SDK/ Terraform)
 
-Creating samples on terraform for AWS 
-Testing and learing GIT
-.
+Project for learning, testing and deploying resources with AWS.
+Also practicing with GIT and Development tools.
