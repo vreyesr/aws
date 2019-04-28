@@ -1,0 +1,12 @@
+{ Configuration
+{ AWS
+{ boto3
+{ Windows
+    setx AWS_ACCESS_KEY_ID
+    setx AWS_SECRET_ACCESS_KEY
+    setx AWS_DEFAULT_REGION
+}
+}
+}
+
+}
