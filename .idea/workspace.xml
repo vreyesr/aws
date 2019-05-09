@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0bb1212-d577-4254-b3f2-0307efd3c5aa" name="Default Changelist" comment="" />
+    <list default="true" id="a0bb1212-d577-4254-b3f2-0307efd3c5aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../oci/adb/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_notes/aws_notes.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_notes/aws_notes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec2-vr2/manage_ec2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ec2-vr2/manage_ec2.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,32 +24,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ec2-vr2/manage_ec2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="279">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
               <folding>
-                <element signature="e#18#116#1" />
-                <element signature="e#187#256#0" />
-                <element signature="e#285#357#0" />
-                <element signature="e#397#468#0" />
-                <element signature="e#457#715#1" />
+                <element signature="e#146#158#0" expanded="true" />
+                <element signature="e#199#268#0" expanded="true" />
+                <element signature="e#1033#1604#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outputs.tf">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/awscli/awscli_notes.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/terraform/terraform_notes.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/01_notes/aws_notes.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -61,16 +61,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/aws_ec2_cli.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/../oci/adb/LoadBalancer/loadbalancer_metrics.py" />
         <option value="$PROJECT_DIR$/ec2-vr2/manage_ec2.py" />
+        <option value="$PROJECT_DIR$/01_notes/aws_notes.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="827" />
-    <option name="y" value="23" />
-    <option name="width" value="1267" />
-    <option name="height" value="938" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="66" />
+    <option name="y" value="35" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -86,12 +90,17 @@
             <path>
               <item name="aws" type="b2602c69:ProjectViewProjectNode" />
               <item name="aws" type="462c0819:PsiDirectoryNode" />
+              <item name="01_notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
               <item name="awscli" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aws" type="b2602c69:ProjectViewProjectNode" />
               <item name="aws" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform" type="462c0819:PsiDirectoryNode" />
+              <item name="ec2-vr2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -103,8 +112,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowPython Console.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="C:/Python27" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vreyesr\PycharmProjects\aws\ec2-vr2" />
+      <recent name="C:\Users\vreyesr\PycharmProjects\aws\terraform" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,6 +155,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="loadbalancer_metrics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="oci" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../oci/adb/LoadBalancer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../oci/adb/LoadBalancer/loadbalancer_metrics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="manage_ec2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="aws" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,6 +200,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage_ec2" />
+        <item itemvalue="Python.loadbalancer_metrics" />
         <item itemvalue="Python.aws_ec2_cli" />
       </list>
     </recent_temporary>
@@ -221,19 +258,40 @@
       <option name="project" value="LOCAL" />
       <updated>1556427352549</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New file to update">
+      <created>1556427849231</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556427849231</updated>
+    </task>
+    <task id="LOCAL-00008" summary="New file to update">
+      <created>1556428755521</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556428755521</updated>
+    </task>
+    <task id="LOCAL-00009" summary="New file to update">
+      <created>1557274885794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557274885794</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="835" extended-state="6" />
+    <frame x="53" y="28" width="1552" height="880" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.22523117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.2630522" />
       <window_info id="Structure" order="1" sideWeight="0.5011442" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011442" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78005284" visible="true" weight="0.375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.78005284" visible="true" weight="0.49573863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,6 +304,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JSON Viewer" order="3" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -306,27 +365,7 @@
     <entry file="file://$PROJECT_DIR$/ec2-vr2/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/awscli.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws_ec2_cli.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ec2-vr2/manage_ec2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#18#116#1" />
-            <element signature="e#187#256#0" />
-            <element signature="e#285#357#0" />
-            <element signature="e#397#468#0" />
-            <element signature="e#457#715#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs.tf">
+    <entry file="file://$PROJECT_DIR$/terraform/outputs.tf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/awscli/awscli_notes.json">
@@ -334,6 +373,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/terraform/terraform_notes.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ec2-vr2/awscli.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ec2-vr2/aws_ec2_cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oci/adb/LoadBalancer/loadbalancer_metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#282#292#0" expanded="true" />
+            <element signature="e#640#1865#1" expanded="true" />
+            <element signature="e#1974#2504#0" expanded="true" />
+            <element signature="e#2096#2404#0" expanded="true" />
+            <element signature="e#2418#2500#0" expanded="true" />
+            <element signature="e#2911#3038#0" expanded="true" />
+            <element signature="e#3442#3494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ec2-vr2/manage_ec2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding>
+            <element signature="e#146#158#0" expanded="true" />
+            <element signature="e#199#268#0" expanded="true" />
+            <element signature="e#1033#1604#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_notes/aws_notes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

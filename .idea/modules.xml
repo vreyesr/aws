@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/aws.iml" filepath="$PROJECT_DIR$/.idea/aws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../oci/.idea/oci.iml" filepath="$PROJECT_DIR$/../oci/.idea/oci.iml" />
     </modules>
   </component>
 </project>

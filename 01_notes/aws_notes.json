@@ -1,12 +1,30 @@
-{ Configuration
-{ AWS
-{ boto3
-{ Windows
-    setx AWS_ACCESS_KEY_ID
-    setx AWS_SECRET_ACCESS_KEY
-    setx AWS_DEFAULT_REGION
-}
-}
-}
 
-}
+ - In a DevOps culture, the provisioning and configuration of servers, networks, and services in general,
+ are performed through automation.
+ -  you can't improve what you can't measure.
+ - DevOps culture is about rethinking how engineering teams work together, by breaking the development and operations
+ silos and bringing a new set of tools, in order to implement the best practices.
+API | SDK | Command Line | Terraform
+
+ { EC2
+
+ }
+
+ { CI / CD
+ - AWS Simple Storage Serive (S3): Store artifacts
+ - AWS CodeBuild: (Testing code)
+ - AWS CodeDeploy: Deploy artifacts to EC2 instances
+ - AWS CodePipeline: Orchestration the code (built, test and deploy across environments)
+ }
+
+ {Monitoring
+ - AWS CloudWatch : to collect index and visuzliza metric and logs (ElasticSearch/Kibana)
+ - AWS Kinesis : Stream data to the services
+ - Amazon SNS : to Send email and SMS
+  }
+
+ { Infrastructure Management
+ - AWS CloudFormation
+    - Amazon Inspector
+    - AWS Trusted Advisor
+ }
