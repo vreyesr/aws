@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/local/aws/bin/python
 '''
     NAME
         aws_ec2_cli.py - For EC2 utility at AWS
@@ -10,8 +10,6 @@
 __version__ = '20190417.1'
 
 import boto3
-import json
-
 
 def aws_list_instances():
     ec2 = boto3.client('ec2')
@@ -24,7 +22,9 @@ def aws_list_instances():
 
 def aws_s3_list():
     s3 = boto3.client('s3')
-    print s3.list_buckets()['Buckets'][0]['Name']
+    print s3.list_buckets()['Buckets']#[0]['Name']
+
+
 
 aws_list_instances()
 aws_s3_list()
