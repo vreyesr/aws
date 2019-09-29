@@ -29,7 +29,9 @@ def aws_list_instances():
     compute=ec2.describe_instances()
 
 #    print [(k, i[k]) for i in compute['Reservations'][0]['Instances'] for k in i.keys()]
-    print [i[k] for i in compute['Reservations'][0]['Instances'] for k in ['State','PublicIpAddress','PublicDnsName' ] if "PublicIpAddress" in i]
+    l=[(k,i[k]) for i in compute['Reservations'][0]['Instances'] for k in ['State','PublicIpAddress','PublicDnsName' ] if "PublicIpAddress" in i]
+    for k in l:
+        print (k[0],k[1])
 
 aws_list_instances()
 #stop_ec2()
